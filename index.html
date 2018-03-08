@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Game</title>
-    </head>
+  <head>
+    <title>Title</title>
+    <script type = "text/javascript" src="script.js"></script>
+  </head>
 
-    <body>
-        <div>
-            <h2>Choose number of questions</h2>
-        </div>
-    </body>
+  <body>
+    <h1>Game</h1>
 
+    <div>
+        <h2>Choose the amount of Questions</h2>
+        <button onclick = "startGame(5)" id = "Qbtn1">5</button>
+        <button onclick = "startGame(10)" id = "Qbtn2">10</button>
+        <button onclick = "startGame(15)" id = "Qbtn3">15</button>
+    </div>
+
+    <div>
+        <p id = "questionNumber">Question ?</p>
+        <p id = "question">Question</p>
+        <p>Timer: </p>
+        <p id = "timer">30</p>
+    </div>
+
+    <div>
+      <button onclick = "answer(1)" id = "Abtn1">button1</button>
+      <button onclick = "answer(2)" id = "Abtn2">button2</button>
+      <button onclick = "answer(3)" id = "Abtn3">button3</button>
+      <button onclick = "answer(4)" id = "Abtn4">button4</button>
+    </div>
+
+    <div>
+      <p id = "result"> Result </p>
+      <p id = "score">Score : ?</p>
+      <p id = "totaltime"> </p>
+      <p id = "averagetime"> </p>
+    </div>
+
+  </body>
 </html>
