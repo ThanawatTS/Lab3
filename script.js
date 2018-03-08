@@ -14,7 +14,7 @@ var btn1,
     time = 0,
     running = 0,
     runningOut = 0,
-    timeOut = 300; 
+    timeOut = 450; 
 
 window.onload = function(){
     btn1 = document.getElementById('Abtn1');
@@ -28,7 +28,7 @@ window.onload = function(){
 
 function fetchData(){
     ourRequest = new XMLHttpRequest();
-    ourRequest.open('GET', 'https://api.myjson.com/bins/1g1ou9');
+    ourRequest.open('GET', 'https://api.myjson.com/bins/s07fl');
     ourRequest.onload = function(){
     console.log(ourRequest.responseText);
     ourData = JSON.parse(ourRequest.responseText);
@@ -64,7 +64,7 @@ function nextQuestion(){
         stopOut();
         updateTime();
         document.getElementById('result').innerHTML = 'Game over';
-        document.getElementById('timer').innerHTML = '30.0';
+        document.getElementById('timer').innerHTML = '45.0';
     } 
     else {
         resetOut();
@@ -97,7 +97,6 @@ function renderQuestion(i){
 }
 
 function answer(i) {
-
     if ( !gameOver && gameStart){
 
     if ( i == 99 ){
@@ -171,7 +170,7 @@ function stopOut(){
 
 function resetOut(){
     runningOut = 0;
-    timeOut = 300;
+    timeOut = 450;
 }
 
 function Outdeduction(){

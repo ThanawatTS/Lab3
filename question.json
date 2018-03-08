@@ -6,73 +6,73 @@
             "answer": "It's your"
         },
         {
-            "question": "2+2",
-            "choice": ["1","2","3","4"],
-            "answer": "4"
+            "question": "What is the fastest way",
+            "choice": ["stay","run","climb","walk"],
+            "answer": "run"
         },
         {
-            "question": "1+1",
-            "choice": ["1","2","3","4"],
-            "answer": "2"
-        },
-        {
-            "question": "3+3",
-            "choice": ["1","2","3","6"],
-            "answer": "6"
-        },
-        {
-            "question": "4+4",
-            "choice": ["1","2","8","4"],
-            "answer": "8"
-        },
-        {
-            "question": "5+5",
-            "choice": ["1","10","3","4"],
-            "answer": "4"
-        },
-        {
-            "question": "6+6",
-            "choice": ["1","12","3","4"],
-            "answer": "12"
-        },
-        {
-            "question": "7+7",
-            "choice": ["14","2","3","4"],
-            "answer": "14"
-        },
-        {
-            "question": "8+8",
-            "choice": ["16","2","3","4"],
-            "answer": "16"
-        },
-        {
-            "question": "9+9",
-            "choice": ["18","2","3","4"],
+            "question": "What is the age of adult",
+            "choice": ["10","2","7","18"],
             "answer": "18"
         },
         {
+            "question": "How to be brave",
+            "choice": ["sleep","close the eye","run away","fight"],
+            "answer": "fight"
+        },
+        {
+            "question": "how to be smart",
+            "choice": ["intelligent","talkative","engage","sleep"],
+            "answer": "intelligent"
+        },
+        {
+            "question": "what is Female's favourite activity",
+            "choice": ["eat","exercise","walk","run"],
+            "answer": "eat"
+        },
+        {
+            "question": "How do you see your face",
+            "choice": ["sleep","close your eye","close your ear","look at mirror"],
+            "answer": "look at mirror"
+        },
+        {
+            "question": "10+2",
+            "choice": ["14","22","12","10"],
+            "answer": "12"
+        },
+        {
+            "question": "123+877",
+            "choice": ["987","999","1000","1010"],
+            "answer": "1000"
+        },
+        {
+            "question": "1+8",
+            "choice": ["9","8","10","6"],
+            "answer": "9"
+        },
+        {
             "question": "10+10",
-            "choice": ["1","20","3","4"],
+            "choice": ["11","20","3","4"],
             "answer": "20"
         },
         {
-            "question": "11+11",
-            "choice": ["1","22","3","4"],
-            "answer": "22"
+            "question": "11+52",
+            "choice": ["None","22","34","49"],
+            "answer": "None"
         },
         {
-            "question": "12+12",
-            "choice": ["1","2","3","24"],
-            "answer": "24"
+            "question": "18+17",
+            "choice": ["15","20","35","24"],
+            "answer": "35"
         },
         {
             "question": "13+13",
-            "choice": ["1","26","3","4"],
+            "choice": ["21","26","33","44"],
             "answer": "26"
         },
         {
             "question": "14+14",
-            "choice": ["1","28","3","4"],
+            "choice": ["17","28","33","42"],
             "answer": "28"
         }
 
