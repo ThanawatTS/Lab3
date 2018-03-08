@@ -1,0 +1,14 @@
+{
+    "Questions":[
+        {
+            "question": "what is your name",
+            "choice": ["Gam","Yam","don't know","It's your"],
+            "answer": "It's your"
+        },
+        {
+            "question": "2+2",
+            "choice": ["1","2","3","4"],
+            "answer": "4"
+        }
+    ]
+}
